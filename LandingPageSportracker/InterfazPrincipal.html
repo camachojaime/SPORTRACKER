@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sportracker</title>
+  <link rel="stylesheet" href="css/Interfaz.css">
+</head>
+<body>
+  <header style="color: rgb(255, 255, 255);font-size: 40px; font-family: 'Oswald', sans-serif; font-weight: bold;">Sportracker</header>
+  <div class="btn-container">
+    <button type="button" id="inicio" class="btn" style="font-size: 18px; font-family: 'Oswald', sans-serif; background-color: rgb(0, 128, 0); color: rgb(255, 255, 255);">Inicio</button>
+    <button type="button" id="acercade" class="btn" style="font-size: 18px; font-family: 'Oswald', sans-serif; background-color: rgb(0, 128, 0); color: rgb(255, 255, 255);">Acerca de</button>
+    
+
+    <div id="resultados"></div>
+  </div>
+  <div class="contenedor">
+    <div id="pantInicio" class="pantalla" style="text-align: center; width: 100%;">
+      
+      <div style="display: flex; width: 100%;">
+        <div style="flex-grow: 2; text-align: justify; width: 100%; padding-left: 60px; padding-top: 0px;">
+            <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif;">Sportracker</h2>
+          <p id="info1" style="font-size: 16px;">¿Estás buscando un bot de Telegram que te proporcione información deportiva en tiempo real? ¡No busques más! Nuestro bot te ofrece la información más actualizada sobre tus deportes favoritos, desde fútbol hasta baloncesto, pasando por tenis y muchos más.</p>
+          
+        </div>
+        <div style="padding-left: 40px;">
+          <img style = "padding-right: 40px; max-width: 400px; padding-top: 40px;" src="https://www.sport.es/labolsadelcorredor/wp-content/uploads/2022/01/racket-6308994_640-1280x720.jpg" alt="Imagen" style="width: 400px; height: 300px;">
+        </div>
+      </div>
+
+      <div style="display: flex; width: 100%;">
+        <div style="flex-grow: 2; padding-right: 40px;">
+          <img style = "padding-left: 60px; max-width: 200px;" src="https://cdn-icons-png.flaticon.com/512/3858/3858639.png" alt="Imagen" style="width: 400px; height: 300px;">
+        </div>
+        <div style="text-align: justify; width: 100%; padding-left: 10px; padding-right: 60px; padding-top: 50px;">
+            <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif">Es facil de usar!!!</h2>
+          <p id="info3" style="font-size: 16px;">Nuestra aplicación Sportracker se ha diseñado pensando en la facilidad de uso y la comodidad de nuestros usuarios. Es por ello que hemos optado por implementar nuestra plataforma como un bot de Telegram, una de las aplicaciones de mensajería más populares y versátiles del mercado. Gracias a esta decisión, nuestros usuarios pueden acceder a información en tiempo real sobre sus deportes favoritos de manera rápida y sencilla, sin tener que preocuparse por aprender a navegar por una nueva interfaz o instalar aplicaciones adicionales en sus dispositivos.</p>
+          <p id="info4" style="font-size: 16px;">En resumen, nuestra aplicación Sportracker se centra en ofrecer a los usuarios una experiencia cómoda, accesible y sencilla a través de la integración con Telegram. Creemos firmemente que, al proporcionar información deportiva en tiempo real en un formato fácil de usar y familiar, estamos ayudando a los fanáticos de los deportes a mantenerse al tanto de sus eventos favoritos y a disfrutar aún más de su pasión por el deporte.</p>
+        </div>
+      </div>
+
+      <div style="display: flex; width: 100%;">
+        <div style="flex-grow: 2; text-align: justify; width: 100%; padding-left: 60px; padding-top: 0px;">
+            <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif">Información en tiempo real</h2>
+          <p id="info5" style="font-size: 16px;">Nuestra aplicación Sportracker se enorgullece de ofrecer información deportiva en tiempo real a través de nuestra innovadora implementación como bot de Telegram. Al aprovechar el poder y la versatilidad de una de las aplicaciones de mensajería instantánea más populares, hemos logrado ofrecer a nuestros usuarios la información más actualizada y precisa sobre una amplia variedad de deportes, directamente en la palma de sus manos.</p>
+          
+        </div>
+        <div style="padding-left: 40px;">
+          <img style = "padding-right: 40px; max-width: 400px; padding-top: 40px;" src="https://www.autofacil.es/wp-content/uploads/2022/03/F1-2022-GP-Barein-1-e1648640026105-1200x675.jpg" alt="Imagen" style="width: 400px; height: 300px;">
+        </div>
+      </div>
+
+      <div style="display: flex; width: 100%;">
+        <div style="flex-grow: 2; padding-right: 40px;">
+          <img style = "padding-left: 60px; max-width: 400px;" src="https://www.ceoe.es/sites/ceoe-corporativo/files/styles/image_1200/public/content/image/2021/03/25/104/diseno-sin-titulo-27.png" alt="Imagen" style="width: 400px; height: 300px;">
+        </div>
+        <div style="text-align: justify; width: 100%; padding-left: 10px; padding-right: 60px; padding-top: 10px;">
+            <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif">Variedad de deportes</h2>
+          <p id="info6" style="font-size: 16px;">¡Tenemos buenas noticias para los amantes del deporte! Nuestro bot de Telegram está disponible para varios deportes, lo que significa que puedes recibir información actualizada y resultados en tiempo real de tus deportes favoritos. Ya sea fútbol, baloncesto, tenis o cualquier otro deporte, ¡nuestro bot está listo para mantenerte al día con las últimas noticias y estadísticas! ¡Únete a nosotros en Telegram y descubre todo lo que tenemos para ofrecer!</p>
+          
+        </div>
+      </div>
+      <p id="info6" style="font-size: 16px;">Además de todas las ventajas que os hemos comentado anteriormente tambien puedes personalizar las alertas para recibir solo la información que te interesa y estar siempre al tanto de los eventos deportivos más importantes. ¡Únete a nosotros ahora y comienza a disfrutar de toda la emoción del mundo del deporte desde la comodidad de tu dispositivo móvil!</p>
+      <button type="button" id="irTelegram" onclick="location.href='https://web.telegram.org/z/#6137289929'" class="btn" style="font-size: 18px; font-family: 'Oswald', sans-serif; background-color: rgb(0, 128, 0); color: rgb(255, 255, 255);">Ir a Telegram</button>
+    </div>
+    
+
+
+    <div id="pantAcercade" class="pantalla" style="text-align: center; align-items: center; width: 100%;">
+        <div style="display: flex; width: 100%;">
+            <div style="flex-grow: 2; text-align: justify; width: 100%; padding-left: 60px; padding-top: 0px; padding-right: 50px;">
+              <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif; font-weight: bold;">Acerca de Sportracker</h2>
+              <p>La idea principal que nos motivo a hacer este proyecto fue que la gente tenia problemas de horario para ver sus deportes favoritos ya que en los calendarios oficiales se muestra la hora local cuando se celebra el evento sin tener en cuenta zonas horarias y nosotros nos planteamos solucionar este problema. Una vez solucionado este problema quisimos ir un poco mas alla mostrando tambien informacion actualizada y de interes para la gente que siga los deportes que ofrecemos como clasificaciones.  </p>
+              <h2 style="color: rgb(0, 128, 0);font-size: 40px; font-family: 'Oswald', sans-serif; font-weight: bold;">Contactanos</h2>
+              <p>Aqui dejamos nuestros correos por si tienes alguna duda: </p>
+              <p>Jaime Camacho Garcia - jaime.camacho1@alu.uclm.es</p>
+              <p>Adrian Utrilla Sanchez - adrian.utrilla@alu.uclm.es</p>
+              <p>Rodrigo Diaz Guerra Fermin - rodrigo.diaz6@alu.uclm.es</p>
+              
+            </div>
+        </div>
+    </div>
+
+
+              <style>
+                body {
+                  transition: all 1s ease;
+                }
+                
+                .grayscale {
+                  filter: grayscale(100%);
+                }
+              </style>
+              
+            </div>
+        </div>
+    </div>
+
+  <script type="text/javascript">
+      const btns = document.querySelectorAll('.btn');
+      const pantallas = document.querySelectorAll('.pantalla');
+
+      for (let i = 0; i < btns.length; i++) {
+          btns[i].addEventListener('click', () => {
+            
+              for (let j = 0; j < pantallas.length; j++) {
+                  pantallas[j].style.display = 'none';
+              }
+
+              if (btns[i].id === 'inicio') {
+                  document .getElementById('pantInicio').style.display = 'block';
+              } else if (btns[i].id === 'alertas') {
+                  document.getElementById('pantAlertas').style.display = 'block';
+              } else if (btns[i].id === 'busqueda') {
+                  document.getElementById('pantBusqueda').style.display = 'block';
+              } else if (btns[i].id === 'acercade') {
+                  document.getElementById('pantAcercade').style.display = 'block';
+              } else if (btns[i].id === 'ajustes') {
+                  document.getElementById('pantAjustes').style.display = 'block';
+              }
+          });
+    }
+      
+  </script>
+</body>
+</html>

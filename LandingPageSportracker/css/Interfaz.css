@@ -1,0 +1,55 @@
+.pantalla {
+    display: none;
+  }
+  
+  #pantInicio {
+    display: block;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* color de fondo blanco */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00B140; /* verde deportivo */
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    height: 60px;
+  }
+  
+  .btn-container {
+    width: 100%;
+    display: flex;
+    gap: 0;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #00B140; /* verde deportivo */
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 60px;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .btn.active {
+    background-color: #666;
+  }
+  
+  button:hover {
+    background-color: #4CAF50; /* verde más claro */
+  }
+  
+  
+  
+  
